@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schedule>
+  <Series Date="12/1/2014" Title="Culver City to start in January 2015 - dates are pending" CustomTitle="true" Visible="false" />
+  <Series Date="4/1/2015" Title="Tentative Schedule For" CustomTitle="false" Visible="true">
+    <Class id="1">
+      <start>4/4/2015</start>
+      <end>5/9/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>South LA</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+      <mandatory></mandatory>
+      <mandatoryarray></mandatoryarray>
+    </Class>
+    <Class id="2">
+      <start>4/9/2015</start>
+      <end>5/19/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>T &amp; TH</days>
+      <time>6-9</time>
+      <area>Culver City</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="3">
+      <start>4/11/2015</start>
+      <end>5/16/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>LA/Hollywood</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="4">
+      <start>4/11/2015</start>
+      <end>5/16/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>Long Beach (Spanish)</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="5">
+      <start>4/18/2015</start>
+      <end>5/23/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>Santa Clarita</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+    </Class>
+  </Series>
+  <Series Date="5/1/2015" Title="Tentative Schedule For" CustomTitle="false" Visible="true">
+    <Class id="1">
+      <start>5/2/2015</start>
+      <end>6/13/2015</end>
+      <skip>05/23/2015</skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>Antelope Valley</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+      <mandatory></mandatory>
+      <mandatoryarray></mandatoryarray>
+    </Class>
+    <Class id="2">
+      <start>5/4/2015</start>
+      <end>6/15/2015</end>
+      <skip>5/25/2015</skip>
+      <skiparray></skiparray>
+      <days>M &amp; W</days>
+      <time>6-9</time>
+      <area>Norwalk</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="3">
+      <start>5/4/2015</start>
+      <end>6/15/2015</end>
+      <skip>5/25/2015</skip>
+      <skiparray></skiparray>
+      <days>M &amp; W</days>
+      <time>6-9</time>
+      <area>LA/Hollywood</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="4">
+      <start>5/9/2015</start>
+      <end>6/20/2015</end>
+      <skip>5/23/2015</skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>Glendora</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="6">
+      <start>5/11/2015</start>
+      <end>6/22/2015</end>
+      <skip>5/25/2015</skip>
+      <skiparray></skiparray>
+      <days>M &amp; W</days>
+      <time>6-9</time>
+      <area>Compton (Spanish)</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="7">
+      <start>5/16/2015</start>
+      <end>6/27/2015</end>
+      <skip>5/23/2015</skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>Long Beach</area>
+      <filled>true</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="8">
+      <start>5/1/2015</start>
+      <mandatory>05/02/2015</mandatory>
+      <mandatoryarray>05/03/2015;05/04/2015;05/05/2015;05/06/2015;05/07/2015;05/08/2015;05/09/2015;05/10/2015;05/11/2015</mandatoryarray>
+      <skip>05/12/2015</skip>
+      <skiparray>05/13/2015;05/14/2015;05/15/2015;05/16/2015;05/17/2015;05/18/2015;05/19/2015</skiparray>
+      <end>5/20/2015</end>
+      <days>M &amp; W</days>
+      <time>9-4</time>
+      <area>Norwalk</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+  </Series>
+  <Series Date="6/1/2015" Title="Tentative Schedule For" CustomTitle="false" Visible="true">
+    <Class id="1">
+      <start>6/1/2015</start>
+      <end>7/6/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>M</days>
+      <time>9-4</time>
+      <area>South LA</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="2">
+      <start>6/13/2015</start>
+      <end>7/25/2015</end>
+      <skip>7/4/2015</skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>Bellflower (Spanish)</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+    <Class id="3">
+      <start>6/13/2015</start>
+      <end>7/25/2015</end>
+      <skip>7/4/2015</skip>
+      <skiparray></skiparray>
+      <days>S</days>
+      <time>9-4</time>
+      <area>San Fernando Valley</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+  </Series>
+  <Series Date="7/1/2015" Title="Tentative Schedule For" CustomTitle="false" Visible="true">
+    <Class id="1">
+      <start>7/7/2015</start>
+      <end>7/25/2015</end>
+      <skip></skip>
+      <skiparray></skiparray>
+      <days>T &amp; TH 6-9pm &amp; SAT 9am-4pm</days>
+      <time>T &amp; TH 6-9pm &amp; SAT 9am-4pm</time>
+      <area>Downtown LA</area>
+      <filled>false</filled>
+      <cancelled>false</cancelled>
+    </Class>
+  </Series>
+</Schedule>

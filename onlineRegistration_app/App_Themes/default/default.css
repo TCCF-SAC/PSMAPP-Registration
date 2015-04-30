@@ -1,0 +1,151 @@
+﻿body
+{
+   font-family: Verdana;
+   font-size: 9pt;
+   line-height: 230%;
+   color: #222;
+}
+
+.ui-datepicker, .ui-dialog-content
+{
+   font-size: 1em;
+   line-height: normal;
+}
+
+.date-picker-container .ui-datepicker-trigger
+{
+   vertical-align: middle;
+   margin: 0px 4px;
+}
+
+.goback { font-size: 1.2em; font-weight: bold; }
+
+.placeholder { color: #ccc; }
+
+.formWrap
+{
+   width: 100%;
+   text-align: center;
+}
+
+.formWrapMain { text-align: left; margin: 0px auto; width: 850px; }
+.formWrapMain.large { width: 1335px; }
+.formWrapMain em { color: #800; }
+.formWrapMain .defaultInput { width: 260px; }
+.formWrapMain .defaultInput.short { width: 50px; }
+.formWrapMain .defaultInput.admin.date-picker { width: 80px; }
+.formWrapMain .example { padding: 0px 0px 8px 1em; color: #555; font-size: 8pt; }
+
+.formWrapMain .editExtraDate { text-align: left; width: 95px; }
+.formWrapMain .extraDate { width: 100px; }
+.formWrapMain .extraDate .defaultInput.admin.date-picker { width: 70px; }
+
+.formWrapMain #editMandatoryDate.mandatoryDate { text-align: left; width: 95px; }
+.formWrapMain .mandatoryDate { width: 100px; }
+.formWrapMain .mandatoryDate .defaultInput.admin.date-picker { width: 70px; }
+
+.bold { font-weight: bold; }
+
+.formWrapMain table { margin: 8px; width: 100%; }
+.formWrapMain table tr td, .formWrapMain table thead tr th { text-align: center; padding: 4px; border: solid 1px #000; vertical-align: top; }
+.formWrapMain table tr .sp { color: #c00; font-weight: bold; }
+.formWrapMain table thead tr th, .tbl_title
+{
+   text-transform: uppercase;
+   font-size: 10pt;
+   font-weight: bold;
+   background: #ddd;
+}
+.formWrapMain table thead .tbl_title, .tbl_title
+{
+   font-size: 125%;
+   background: #fff;
+   border: none;
+   text-align: center;
+   line-height: normal;
+   padding: 10px 0px;
+}
+.tbl_title.plxain, .tbl_title.alt { text-transform: none; }
+.tbl_title.alt { font-weight: normal; color: #f00; }
+
+.formWrapMain table thead .tbl_title small, .tbl_title small { font-weight: normal; }
+.formWrapMain table .nopad td { padding: 0px; }
+
+.formWrapMain table tr.alt td  { background: #eee; }
+
+.formWrapMain .plain tr td { border: none; vertical-align: top; }
+.formWrapMain .plain tr .w1 { width: 25%; }
+.formWrapMain .plain tr .w2 { width: 75%; }
+
+.formWrapMain .plain tr .w3 { width: 15%; }
+.formWrapMain .plain tr .w4 { width: 45%; }
+
+.formWrapMain .plain tr .w1, .formWrapMain .plain tr .w3.align_right { text-align: right; padding-right: 10px; }
+.formWrapMain .plain tr .w2, .formWrapMain .plain tr .w3,
+.formWrapMain .plain tr .w4 { text-align: left; }
+
+.formWrapMain .buttons { text-align: center; margin: 15px 0px; }
+.formWrapMain .buttons input { font-size: 15pt; }
+
+.formWrapMain .notice, .formWrapMain .scheduleNotice
+{
+   font-size: 12pt;
+   font-weight: bold;
+}
+
+.formWrapMain .notice_footer { font-size: 11pt; }
+.formWrapMain .notice_footer strong { white-space: nowrap; }
+
+.formWrapMain .scheduleNotice
+{
+   border: dotted 2px #ccc;
+   font-size: 12pt;
+   margin: 10px auto;
+   padding: 10px;
+   text-align: center;
+   width: 95%;
+}
+
+.scheduleWrapper
+{
+   border-radius: 10px;
+   box-shadow: -2px 5px 15px 1px #ccc,
+               0px 0px 10px 1px #ccc inset;
+   margin: 0px auto;
+   width: 1300px;
+   padding: 15px;
+}
+
+.formWrapMain.adminEdits table { margin: 0px; }
+
+.cssZebra table tbody tr:nth-child(odd) td { background: #eee; }
+.cssZebra.even table tbody tr:nth-child(even) td { background: #eee; }
+
+.formWrapMain table tr.newItem td { background: #b3c8db !important; }
+
+.formWrapMain.adminEdits table tr td input { text-align: center; }
+
+.valSummary
+{
+   border: dashed 2px #333;
+   padding: 8px;
+   color: #c00;
+   line-height: 180%;
+   margin: 8px 0px;
+}
+.valSummary strong { font-size: 11pt; }
+
+.align_right { text-align: right; }
+.formWrapMain table tr .align_left, .align_left { text-align: left; }
+
+.icon-skip-date, .custom-title-help { float: right; }
+
+.custom-title-help { margin: 4px 0 0 0; }
+
+/* .icon-skip-date { margin: 4px 0 0 2px; } */
+
+.addDate {
+    white-space: nowrap;
+    position: relative;
+}
+.addDate a { position: relative; }
