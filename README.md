@@ -13,8 +13,6 @@ The following is an example of how the class table appears once the XML file is 
 | ------ | --------------------- | ----- | ----- | ----- | ----- | -------- | ------ |
 | 01/01  | 01/01, 02/01, 03/01   | 04/01 | 09/01 | M & W |  9-4  | South LA | FILLED |
 
-=====
-
 When submitted, the online application will generate an email and send it to the email address defined in the web.config file appSettings key: TCCF_ContactEmail.
 
 The email will be sent in HTML format. To test the email, include the xmlEmailTest.aspx file in your project and open that in a new browser window. The email should be generated off of the same XML file stored in ~/data/schedule.xml.
