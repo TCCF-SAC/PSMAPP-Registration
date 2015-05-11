@@ -284,7 +284,7 @@
                <table cellspacing="0">
                   <thead>
                      <tr>
-                        <th colspan="7" class="tbl_title<%# ((bool)Eval("CustomTitle") ? " plain" : "") %>">
+                        <th colspan="8" class="tbl_title<%# ((bool)Eval("CustomTitle") ? " plain" : "") %>">
                            <asp:HiddenField ID="hidXPath" runat="server" Visible="false" Value='<%#Eval("XPathAddress")%>' />
                            <%#Eval("DisplayTitle")%>
                         </th>
@@ -323,7 +323,7 @@
 
                         <EmptyDataTemplate>
                            <tr class="alt">
-                              <td colspan="7" class="notice">
+                              <td colspan="8" class="notice">
                                  There are no classes within this series.
                               </td>
                            </tr>
