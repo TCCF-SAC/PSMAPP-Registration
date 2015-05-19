@@ -1,10 +1,9 @@
-PS-MAPP Online Registration
-========
+# PS-MAPP Online Registration
 
 A Visual Studio 2010 project.
 
 This application stores its date in an XML file under ~/data/schedule.xml.
-There is no sensitive data saved in this file, simply class information and dates.
+Sensitive data should never be saved into this file, simply class information and dates.
 This application is originally hosted on the HDYS/Community College Foundation websites: http://hdys2.communitycollege.org/
 
 The following is an example of how the class table appears once the XML file is processed:
